@@ -17,7 +17,7 @@ Please make sure the input file is in the same location as the batch file!
 * [FFMPEG](https://ffmpeg.zeranoe.com/builds/) - To convert video
     - Make sure they are both accessible through CMD/CLI!
 
-### Change the bitrate with
+### Change the bits/per/second by changing the following line: (note bits not bytes. 4096KB = 32,768 bits)
 ```
 set bitrate=[insert bitrate here]
 ```
