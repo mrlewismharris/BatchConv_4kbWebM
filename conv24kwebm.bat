@@ -11,4 +11,3 @@ if %VV% gtr 20000 (
 ) else (
 	ffmpeg -i %1 -c:v libvpx -b:v %b%K -maxrate %b%K -bufsize 10K -c:a libvorbis -b:a 64K %1.webm
 )
-pause
